@@ -16,6 +16,7 @@
 		34310C382525065F0000C8CA /* ASR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34310C362525065F0000C8CA /* ASR.swift */; };
 		34310C3B252506D10000C8CA /* model_en in Resources */ = {isa = PBXBuildFile; fileRef = 34310C3A252506D10000C8CA /* model_en */; };
 		34310C41252509C80000C8CA /* SpeechToTextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34310C40252509C80000C8CA /* SpeechToTextService.swift */; };
+		34310C4F25250EB90000C8CA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34310C4E25250EB90000C8CA /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		34310C3A252506D10000C8CA /* model_en */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model_en; sourceTree = "<group>"; };
 		34310C40252509C80000C8CA /* SpeechToTextService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechToTextService.swift; sourceTree = "<group>"; };
 		34310C4825250BFB0000C8CA /* demo-asr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo-asr-Bridging-Header.h"; sourceTree = "<group>"; };
+		34310C4E25250EB90000C8CA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34310C4F25250EB90000C8CA /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +53,7 @@
 			children = (
 				34310C202525063D0000C8CA /* demo-asr */,
 				34310C1F2525063D0000C8CA /* Products */,
+				34310C4D25250EB90000C8CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +82,14 @@
 				34310C4825250BFB0000C8CA /* demo-asr-Bridging-Header.h */,
 			);
 			path = "demo-asr";
+			sourceTree = "<group>";
+		};
+		34310C4D25250EB90000C8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34310C4E25250EB90000C8CA /* Accelerate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
